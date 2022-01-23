@@ -1,0 +1,75 @@
+body{
+    font-family: Arvo,serif;
+    background: url(images/night.jpeg) no-repeat center center/cover;
+     height: auto;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.navbar-inverse{
+    background:rgba(0,0,0,0.5);
+}
+.nav li{
+    color: white;
+    font-size: 19px;
+    margin-right:35px;
+    padding:10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+.jumbotron{
+    background-color:transparent;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    letter-spacing: 2.5px;
+
+}
+.container{
+    max-width: 1000px;
+}
+.bodyimage{
+    height: 100px;
+    }
+    .col-md-4{
+        text-align: center;
+        color: white;
+            }
+            .icons p{
+                font-size: 15px;
+            }
+            .contact{
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 100px;
+            }
+            .btn{
+                background: #00ffb8;
+                border:none;
+                border-radius: 10px;
+                color: white;
+                font-size: 18px;
+                padding: 10px 70px;
+                letter-spacing: 1.3px;
+            }
+            .btn:hover{
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            }
+            .footer{
+                background-color: rgba(0,0,0,0.5);
+                color: white;
+                font-size: 15px;
+                padding: 10px 0;
+            }
+            @media (max-width:768px){
+                .bodyimage{
+                    height: 70px;
+                }
+            }
